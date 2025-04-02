@@ -1,0 +1,29 @@
+{
+  "name": "car-hire-website",
+  "version": "1.0.0",
+  "description": "A simple car hire website",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [
+    "car",
+    "hire",
+    "rental",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "live-server": "^1.2.1"
+  }
+}
